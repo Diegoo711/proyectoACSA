@@ -1,0 +1,159 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('Fondo.jpeg'); 
+    background-size: cover; /* Para cubrir todo el área visible */
+    background-attachment: fixed; 
+}
+
+.formulario_registro {
+
+    width: 400px;
+    background: orange;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.formulario_IS {
+
+    width: 400px;
+    background: orange;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.formulario_alta_productos {
+
+    width: 400px;
+    background: orange;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.formulario_baja_productos {
+
+    width: 400px;
+    background: orange;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+h4 {
+
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.campos {
+     width: 100%;
+     background: rgb(255, 255, 255);
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 16px;
+     border: 1px solid black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 18px;
+}
+
+.formulario_registro p {
+
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    
+
+}
+
+
+.formulario_registro a:hover {
+
+    color:green;
+    text-decoration: underline;
+    
+
+}
+
+.formulario_IS a:hover {
+
+    color:green;
+    text-decoration: underline;
+    
+
+}
+
+.formulario_alta_productos a:hover {
+
+    color:green;
+    text-decoration: underline;
+
+}
+
+.formulario_baja_productos a:hover {
+
+    color:green;
+    text-decoration: underline;
+
+}
+
+a {
+
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: green;
+
+
+}
+
+.botones {
+    background-color: green;
+    color: white;
+    display: block;
+    margin: 18px auto; 
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.botones:hover {
+    background-color: darkgreen; 
+}
